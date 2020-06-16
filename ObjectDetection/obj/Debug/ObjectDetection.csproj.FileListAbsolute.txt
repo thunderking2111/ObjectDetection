@@ -1,0 +1,146 @@
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\ObjectDetection.dll.config
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\ObjectDetection.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\ObjectDetection.pdb
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\csc.exe
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\csc.exe.config
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\csc.rsp
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\csi.exe
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\csi.exe.config
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\csi.rsp
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.AppContext.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.Collections.Immutable.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.Console.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.Globalization.Calendars.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.IO.Compression.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.IO.FileSystem.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.Net.Http.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.Net.Sockets.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.Reflection.Metadata.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.ValueTuple.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.Xml.XPath.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\vbc.exe
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\vbc.exe.config
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\vbc.rsp
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\VBCSCompiler.exe
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\roslyn\VBCSCompiler.exe.config
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\Antlr3.Runtime.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\AspNet.ScriptManager.bootstrap.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\AspNet.ScriptManager.jQuery.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\Microsoft.ScriptManager.WebForms.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\Microsoft.Web.Infrastructure.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\Newtonsoft.Json.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\System.Web.Optimization.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\WebGrease.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\System.Web.Optimization.xml
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\Newtonsoft.Json.xml
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\Antlr3.Runtime.pdb
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\Object Detection\ObjectDetection\ObjectDetection\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Object Detection\ObjectDetection\ObjectDetection\obj\Debug\ObjectDetection.csprojAssemblyReference.cache
+E:\Object Detection\ObjectDetection\ObjectDetection\obj\Debug\ObjectDetection.csproj.CopyComplete
+E:\Object Detection\ObjectDetection\ObjectDetection\obj\Debug\ObjectDetection.dll
+E:\Object Detection\ObjectDetection\ObjectDetection\obj\Debug\ObjectDetection.pdb
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\ObjectDetection.dll.config
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\ObjectDetection.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\ObjectDetection.pdb
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\csc.exe
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\csc.exe.config
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\csc.rsp
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\csi.exe
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\csi.exe.config
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\csi.rsp
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.Console.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.Net.Http.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\vbc.exe
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\vbc.rsp
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\System.Web.Optimization.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\WebGrease.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\System.Web.Optimization.xml
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\obj\Debug\ObjectDetection.csprojAssemblyReference.cache
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\obj\Debug\ObjectDetection.csproj.CopyComplete
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\obj\Debug\ObjectDetection.dll
+C:\Users\Admin\Downloads\ObjectDetection\ObjectDetection\obj\Debug\ObjectDetection.pdb
