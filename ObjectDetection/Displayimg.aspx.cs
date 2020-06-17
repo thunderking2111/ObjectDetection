@@ -141,40 +141,49 @@ namespace ObjectDetection
             if (Session["update"].ToString() == ViewState["update"].ToString())
             {
                 Add_Another_Data(sender, e);
-
-                int id = (Int32)mainDt.Rows[imageNo].ItemArray[0];
-                SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Admin\Desktop\ObjectDetection\Images.mdf;Integrated Security=True;Connect Timeout=30");
-                con.Open();
-                for (int i = 0; i < no_Of_Objects; i++)
+                OnPreRender(e);
+                
+                if(no_Of_Objects > 0)
                 {
-                    SqlCommand cmd = new SqlCommand("INSERT INTO Coordinates ([ImgId],[X-Dimension],[Y-Dimension],[Height],[Width],[Label]) VALUES(@Id,@X,@Y,@H,@W,@Label)", con);
+                    int id = (Int32)mainDt.Rows[imageNo].ItemArray[0];
+                    SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Admin\Desktop\ObjectDetection\Images.mdf;Integrated Security=True;Connect Timeout=30");
+                    con.Open();
+                    for (int i = 0; i < no_Of_Objects; i++)
+                    {
+                        SqlCommand cmd = new SqlCommand("INSERT INTO Coordinates ([ImgId],[X-Dimension],[Y-Dimension],[Height],[Width],[Label]) VALUES(@Id,@X,@Y,@H,@W,@Label)", con);
 
-                    cmd.Parameters.Add("@Id", System.Data.SqlDbType.Int);
-                    cmd.Parameters.Add("@X", System.Data.SqlDbType.Float);
-                    cmd.Parameters.Add("@Y", System.Data.SqlDbType.Float);
-                    cmd.Parameters.Add("@H", System.Data.SqlDbType.Float);
-                    cmd.Parameters.Add("@W", System.Data.SqlDbType.Float);
+                        cmd.Parameters.Add("@Id", System.Data.SqlDbType.Int);
+                        cmd.Parameters.Add("@X", System.Data.SqlDbType.Float);
+                        cmd.Parameters.Add("@Y", System.Data.SqlDbType.Float);
+                        cmd.Parameters.Add("@H", System.Data.SqlDbType.Float);
+                        cmd.Parameters.Add("@W", System.Data.SqlDbType.Float);
 
-                    cmd.Parameters["@Id"].Value = id;
-                    cmd.Parameters["@X"].Value = float.Parse(cordinates[i, 0]);
-                    cmd.Parameters["@Y"].Value = float.Parse(cordinates[i, 1]);
-                    cmd.Parameters["@H"].Value = float.Parse(cordinates[i, 2]);
-                    cmd.Parameters["@W"].Value = float.Parse(cordinates[i, 3]);
-                    cmd.Parameters.AddWithValue("@Label", cordinates[i, 4]);
-                    cmd.ExecuteNonQuery();
+                        cmd.Parameters["@Id"].Value = id;
+                        cmd.Parameters["@X"].Value = float.Parse(cordinates[i, 0]);
+                        cmd.Parameters["@Y"].Value = float.Parse(cordinates[i, 1]);
+                        cmd.Parameters["@H"].Value = float.Parse(cordinates[i, 2]);
+                        cmd.Parameters["@W"].Value = float.Parse(cordinates[i, 3]);
+                        cmd.Parameters.AddWithValue("@Label", cordinates[i, 4]);
+                        cmd.ExecuteNonQuery();
+                    }
+
+                    SqlCommand cmd2 = new SqlCommand("UPDATE IMAGESAVE SET Status = 'Yes' WHERE ImgId = @Id", con);
+                    cmd2.Parameters.Add("@Id", System.Data.SqlDbType.Int);
+                    cmd2.Parameters["@Id"].Value = id;
+                    cmd2.ExecuteNonQuery();
+
+                    con.Close();
+                    no_Of_Objects = 0;
+                    Array.Clear(cordinates, 0, cordinates.Length);
+                    cordinates = new String[20, 5];
+
                 }
+                
 
-                SqlCommand cmd2 = new SqlCommand("UPDATE IMAGESAVE SET Status = 'Yes' WHERE ImgId = @Id", con);
-                cmd2.Parameters.Add("@Id", System.Data.SqlDbType.Int);
-                cmd2.Parameters["@Id"].Value = id;
-                cmd2.ExecuteNonQuery();
-
-                con.Close();
-                no_Of_Objects = 0;
-                Array.Clear(cordinates, 0, cordinates.Length);
-                cordinates = new String[20, 5];
+                Load_Next_Image(sender, e);
 
                 Session["update"] = Server.UrlEncode(System.DateTime.Now.ToString());
+
             }
         }
 
@@ -187,7 +196,10 @@ namespace ObjectDetection
                 cordinates[no_Of_Objects, 2] = H.Value;
                 cordinates[no_Of_Objects, 3] = W.Value;
                 cordinates[no_Of_Objects, 4] = DropDownList1.SelectedValue;
-                no_Of_Objects++;
+                if (H.Value != "" && W.Value != "")
+                {
+                    no_Of_Objects++;
+                }
 
                 Session["update"] = Server.UrlEncode(System.DateTime.Now.ToString());
             }
