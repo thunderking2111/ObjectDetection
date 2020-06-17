@@ -7,13 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ObjectDetection
-{
-
-
-    public partial class ImageUpload
-    {
-
+namespace ObjectDetection {
+    
+    
+    public partial class ImageUpload {
+        
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -22,7 +20,25 @@ namespace ObjectDetection
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
+        
+        /// <summary>
+        /// label_box control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl label_box;
+        
+        /// <summary>
+        /// Upload_Status control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Upload_Status;
+        
         /// <summary>
         /// FileUpload1 control.
         /// </summary>
@@ -31,7 +47,7 @@ namespace ObjectDetection
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
-
+        
         /// <summary>
         /// btn_save control.
         /// </summary>
@@ -40,7 +56,7 @@ namespace ObjectDetection
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btn_save;
-
+        
         /// <summary>
         /// Repeater1 control.
         /// </summary>
@@ -49,7 +65,7 @@ namespace ObjectDetection
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Repeater Repeater1;
-
+        
         /// <summary>
         /// TextBox1 control.
         /// </summary>
@@ -58,7 +74,7 @@ namespace ObjectDetection
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox1;
-
+        
         /// <summary>
         /// Button1 control.
         /// </summary>
@@ -67,7 +83,7 @@ namespace ObjectDetection
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
-
+        
         /// <summary>
         /// GridView1 control.
         /// </summary>
