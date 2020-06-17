@@ -113,6 +113,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="css\jquery.Jcrop.css" />
+    <Content Include="css\stylesheet.css" />
     <Content Include="Default.aspx" />
     <Content Include="Displayimg.aspx" />
     <Content Include="favicon.ico" />

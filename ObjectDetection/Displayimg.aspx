@@ -4,8 +4,9 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
-     <link href="css/jquery.Jcrop.css" rel="stylesheet" />  
+    <title>Select the Objects</title>
+    <link href="css/jquery.Jcrop.css" rel="stylesheet" />  
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
 <script src="js/jquery.min.js"></script>  
 <script src="js/jquery.Jcrop.js"></script>  
 <script type="text/javascript">  
@@ -34,22 +35,28 @@
 <body>
     <form id="form1" runat="server">
         <asp:ScriptManager ID="ScriptManager1" runat="server" />
-        <div id="label_box" runat="server" visible="false">
-            <asp:Label runat="server" Text="" ID="ErrorMessage" ForeColor="Red" Font-Size="Large" ></asp:Label>
-            <br />
-            <br />
-        </div>
         <div>
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-            <asp:Button ID="Button1" runat="server" Text="Show Image" OnClick="Button1_Click" />
-            <%--<asp:GridView runat="server" ID="GridView1" AutoGenerateColumns="false" > 
-                <Columns>
-                    <asp:ImageField DataImageUrlField="ImgPath" ></asp:ImageField>
-                </Columns>
-            </asp:GridView>--%>
+            <div class="getImage">
+                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                <asp:Button ID="Button1" runat="server" Text="Show Image" OnClick="Button1_Click" />
+            </div>
+            <div class="navigation_Buttons">
+                 <%--<asp:UpdatePanel ID="UpdatePanel3" runat="server">
+                        <ContentTemplate>--%>
+                            <asp:Button runat="server" CssClass="nav_buttons" ID="btn_previous" Text="Previous" OnClick="Load_Previous_Image"></asp:Button>
+                            <asp:Button runat="server" CssClass="nav_buttons" ID="btn_add_another" Text="Add One More" OnClick="Add_Another_Data"></asp:Button>
+                            <asp:Button runat="server" CssClass="nav_buttons" ID="btn_done" Text="Done" OnClick="Add_Data_To_Database"></asp:Button>
+                            <asp:Button runat="server" CssClass="nav_buttons" ID="btn_next" Text="Next" OnClick="Load_Next_Image" onMouseDown="SelectCropArea"></asp:Button> 
+                        <%--</ContentTemplate>
+                    </asp:UpdatePanel>--%>
+            </div>
+            <br />
+            <br />
             <%--<asp:UpdatePanel ID="UpdatePanel4" runat="server" UpdateMode="Conditional">
                 <ContentTemplate>--%>
-                    <asp:Image ID="DispImage" runat="server"/>
+                <div class="imagebox">
+                        <asp:Image ID="DispImage" CssClass="center-fit" runat="server" />
+                </div>
                 <%--</ContentTemplate>
                 <Triggers>
                     <asp:AsyncPostBackTrigger ControlID="btn_done" EventName="Click" />
@@ -96,15 +103,7 @@
         </asp:UpdatePanel>
         <br />
         <br />
-        <%--<asp:UpdatePanel ID="UpdatePanel3" runat="server">
-            <ContentTemplate>--%>
-                <asp:Button runat="server" CssClass="nav_buttons" ID="btn_previous" Text="Previous" OnClick="Load_Previous_Image"></asp:Button>
-                <asp:Button runat="server" CssClass="nav_buttons" ID="btn_add_another" Text="Add One More" OnClick="Add_Another_Data"></asp:Button>
-                <asp:Button runat="server" CssClass="nav_buttons" ID="btn_done" Text="Done" OnClick="Add_Data_To_Database"></asp:Button>
-                <asp:Button runat="server" CssClass="nav_buttons" ID="btn_next" Text="Next" OnClick="Load_Next_Image" onMouseDown="SelectCropArea"></asp:Button> 
-            <%--</ContentTemplate>
-        </asp:UpdatePanel>--%><%--</ContentTemplate>
-        </asp:UpdatePanel>--%>
+       
     </p>
 
 
