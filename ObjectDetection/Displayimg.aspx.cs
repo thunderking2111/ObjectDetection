@@ -36,7 +36,6 @@ namespace ObjectDetection
                 sda.Fill(mainDt);
                 totalImages = mainDt.Rows.Count;
                 getInitialCordinates(mainDt.Rows[imageNo].ItemArray[2].ToString());
-                Session["height"] = 1;
             }
             
             DispImage.ImageUrl = mainDt.Rows[imageNo].ItemArray[2].ToString();
@@ -126,11 +125,6 @@ namespace ObjectDetection
 
                 Session["update"] = Server.UrlEncode(System.DateTime.Now.ToString());
             }
-        }
-
-        protected void Button2_Click(object sender, EventArgs e)
-        {
-            Response.Write(Session["height"]);
         }
 
         protected void Load_Next_Image(object sender, EventArgs e)

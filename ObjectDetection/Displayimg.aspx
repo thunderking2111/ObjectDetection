@@ -10,34 +10,18 @@
 <script src="js/jquery.min.js"></script>  
 <script src="js/jquery.Jcrop.js"></script>  
 <script type="text/javascript">  
-    var height = 1;
-    var width = 2;
     $(document).ready(function () {
         <%--$('#<%=GridView1.ClientID%>').Jcrop({
             onSelect: SelectCropArea
         });--%>
-        
-        var $target = $('#DispImage');
-        $target.on('load', function () {
-            height = $(this).height();
-            width = $(this).width();
-            '<%Session["height"] = "' + height + '"; %>';
-            '<%Session["width"] = "'+width+'";%>';
-            alert('<%=Session["height"]%>');
-        });
-
         $('#<%=DispImage.ClientID%>').Jcrop({
             onSelect: SelectCropArea
         });
-        
-
     });
-    
     $('#btn_add_another').click(function () {
         $('#<%=DispImage.ClientID%>').Jcrop({
             onSelect: SelectCropArea
         });
-        
     });
 
     function SelectCropArea(c) {
@@ -63,7 +47,6 @@
                             <asp:Button runat="server" CssClass="nav_buttons" ID="btn_add_another" Text="Add One More" OnClick="Add_Another_Data"></asp:Button>
                             <asp:Button runat="server" CssClass="nav_buttons" ID="btn_done" Text="Done" OnClick="Add_Data_To_Database"></asp:Button>
                             <asp:Button runat="server" CssClass="nav_buttons" ID="btn_next" Text="Next" OnClick="Load_Next_Image" onMouseDown="SelectCropArea"></asp:Button> 
-                            <asp:Button runat="server" CssClass="nav_buttons" ID="Button2" Text="Next" OnClick="Button2_Click" ></asp:Button> 
                         <%--</ContentTemplate>
                     </asp:UpdatePanel>--%>
             </div>
